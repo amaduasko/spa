@@ -1,0 +1,39 @@
+.exp-title {
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.1px;
+}
+.exp-caption {
+  color: #2f2d35;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  text-align: center;
+}
+.col-border {
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+.row-border {
+  border-bottom: 1px solid #ebebeb;
+}
+@media only screen and (max-width: 576px) {
+  .col-border {
+    border-left: unset;
+    border-right: unset;
+  }
+  .row-border {
+    border-bottom: unset;
+  }
+  .exp-title {
+    font-size: 20px;
+  }
+  .exp-caption {
+    font-size: 12px;
+  }
+}

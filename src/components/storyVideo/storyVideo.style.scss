@@ -1,0 +1,74 @@
+.storyvideo-container {
+  background-image: url("../../images/bg_2.png");
+  background-size: cover;
+  height: 550px;
+  .container {
+    width: fit-content;
+    top: 40%;
+  }
+  .storyvideo-background {
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+  }
+}
+.modal {
+  .modal-dialog {
+    height: 500px;
+    .modal-content {
+      height: 500px;
+      .container {
+        height: 500px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .storyvideo-container {
+    height: 450px;
+    .storyvideo-background {
+      height: 450px;
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .storyvideo-container {
+    height: 400px;
+    .storyvideo-background {
+      height: 400px;
+    }
+  }
+  .modal {
+    .modal-dialog {
+      height: 400px;
+      .modal-content {
+        height: 400px;
+        .container {
+          height: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .storyvideo-container {
+    height: 350px;
+    .storyvideo-background {
+      height: 350px;
+    }
+  }
+  .modal {
+    .modal-dialog {
+      height: 300px;
+      .modal-content {
+        height: 300px;
+        .container {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
